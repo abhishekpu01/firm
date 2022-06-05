@@ -1,0 +1,70 @@
+body,html{
+    position:relative;
+    overflow-x:hidden;
+}
+*{
+    margin:0;
+    padding:0;
+    background:black;
+    font-family: 'Lato', sans-serif;
+}
+.my-nav{
+    display:flex;
+    justify-content:space-between;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:40px;
+    align-items:center;
+}
+
+.left{
+    display:flex;
+    width:70%;
+    align-items:center;
+}
+
+.right{
+    display:flex;
+    justify-content:flex-end;
+    width:30%;
+    align-items:center;
+}
+
+.list-1,.list-2{
+    display:flex;
+    justify-content:space-between;
+    width:40%;
+}
+
+
+
+.logo{
+    display:flex;
+    width:30%;
+    align-items:center;
+}
+
+.logo-img{
+    height:30px;
+    width:30px;
+}
+
+.logo-head{
+    color:white;
+    margin-left:5px;
+}
+
+.l-item{
+    color:grey;
+}
+
+.l-item a{
+    text-decoration: none;
+    color:grey;
+}
+.bord{
+    height:20px;
+    width:2px;
+    background:grey;
+}

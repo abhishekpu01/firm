@@ -1,0 +1,172 @@
+@media only screen and (max-width: 1330px){
+    .dashboard{
+        width:98% !important;
+    }
+
+    .h3{
+        font-size:2rem !important;
+    }
+
+    .logo{
+        height:45px;
+        width:45px;
+    }
+
+    .dashboard-nav{
+        width:75% !important;
+    }    
+
+    .profile{
+        justify-content:flex-end;
+    }
+
+    .head{
+        margin-top:12px;
+    }
+
+}
+
+@media only screen and (max-width: 1450px){
+    .profile{
+        width:45%;
+        justify-content:flex-end;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .logo-1{
+        display:none;
+    }
+
+    .dash-left{
+        margin-top:0;
+    }
+
+    .profile{
+        width:100%;
+        justify-content:flex-end;
+    }
+
+    .card-section{
+        width:100%;
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+
+    .invest-card{
+        width:40% !important;
+        justify-content:space-between;
+        gap:0 !important;
+    }
+
+    .investor-sec{
+        justify-content:space-around;
+    }
+
+}
+
+@media only screen and (max-width: 1060px){
+
+    .h3{
+        width:70%;
+    }
+
+    .h4{
+        width:75%;
+    }
+
+    .h5{
+        width:auto;
+    }
+
+    .dash-left{
+        display:none;
+
+    }
+
+    .dash-right{
+        width:100%;
+    }
+
+    .dashboard{
+        width:92% !important;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .invest-card{
+        width:23%;
+        gap:10px;
+    }
+}
+
+@media only screen and (max-width: 700px){
+
+    .h3{
+        font-size:1.5rem !important;
+    }
+
+    .h5{
+        font-size:0.8rem;
+    }
+
+    .dashboard{
+        width:96% !important;
+    }
+
+    .tab-img{
+        display:block;
+    }
+
+    .main-img{
+        display:none;
+    }
+
+}
+
+@media only screen and (max-width: 500px){
+    .profile-logo{
+        width:30px;
+        height:30px;
+    }
+
+    .investor-sec{
+        flex-wrap:wrap;
+        gap:20px;
+    }
+
+    .gainers{
+        width:100%;
+    }
+
+}
+
+@media only screen and (max-width: 330px){
+    .h3{
+        font-size:1rem !important;
+        width:auto !important;
+    }
+
+    .h5{
+        font-size:0.6rem;
+    }
+}
+
+@media only screen and (max-width: 432.5px){
+    .invest-card{
+        width:100% !important;
+    }
+
+
+    .h6-x, .h5-x{
+        font-size:1.1rem;
+    }
+
+    .tab-img{
+        height:320px;
+    }
+
+
+
+}

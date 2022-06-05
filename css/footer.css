@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin:0;
+    padding:0;
+    background:black;
+    font-family: 'Lato', sans-serif;
+}
+
+.form-btn{
+    color:black;
+    border:2px solid white;
+    background:white;
+    padding:10px;
+    text-decoration:none;
+    border:2px solid black;
+    border-radius:16px;
+    font-weight:bolder;
+}
+
+.btn{
+    height:100%;
+}
+
+/*FOOTER SECTION DESIGNING*/
+#sec{
+    background:rgb(76, 55, 158) !important;
+}
+.my-footer{
+    padding-top:40px;
+    padding-bottom:40px;
+    margin-top:40px;
+    background:none;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    justify-content:space-between;
+}
+
+
+.h3{
+    background:none;
+    color:white;
+    font-size:1.2rem;
+}
+
+.sec-1{
+    width:35%;
+    display:flex;
+    flex-direction:column;
+    line-height:1.5;
+    background:none;
+}
+
+.sec{
+    width:18%;
+    display:flex;
+    flex-direction:column;
+    line-height:1.8;
+    background:none;
+}
+
+
+p{
+    background:none;
+    color:grey;
+}
+
+.pad{
+    margin-left:0;
+    margin-bottom:16px;
+    background:none;
+}
+
+.fo{
+    background:none;
+    font-weight:600 !important;
+}
+
+.foot-hid , .underline{
+    display:none !important;
+}
+
+.underline{
+    width:80% !important;
+    height:2px !important;
+    background:grey;
+}
+
+.footer-form{
+    background:none;
+    justify-content:space-between;
+}
+
+#line{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    background:gray;
+}
+
+.footer-lower{
+    background:none;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    justify-content:space-between;
+    padding-bottom:40px;
+}
+
+.text{
+    padding:10px;
+    width:60%;
+    border:2px solid rgb(26, 26, 26);
+    border-radius:16px;
+    color:white;
+    background:rgb(26, 26, 26);
+}
+
+.header-form{
+    margin-top:40px;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.lh{
+    line-height:2;
+}
+
+.para{
+    color:grey;
+    margin-top:20px;
+    font-size:1rem;
+}

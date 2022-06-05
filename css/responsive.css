@@ -1,0 +1,426 @@
+/*MAKING NAVBAR RESPONSIVE FOR MULTIPLE DEVICES*/
+
+  @media only screen and (max-width: 1200px){
+      .right{
+          width:40%;
+      }
+      .left{
+          width:60%;
+      }
+      .my-nav{
+        width:90%;
+    }
+    .my-header , .my-footer , #line , .footer-lower , .service-lower, .features-sec{
+        width:90%;
+    }
+    .an{
+        width:90%;
+    }
+    .service-sec{
+        width:40%;
+    }
+
+    .card-img{
+        max-width:50%;
+    }
+    .list-1 , .list-2{
+        width:60%;
+    }
+    .foot-hid{
+        display:inline-block !important;
+        width:fit-content !important;
+        margin-top:40px;
+        font-size:0.8rem;
+    }
+
+    .footer-form{
+        display:none !important;
+    }
+  }
+
+  @media only screen and (max-width: 650px){
+    .right{
+        width:35%;
+    }
+    .left{
+        width:65%;
+    }
+    .my-nav , .my-footer , .an , #line , .footer-lower , .service-lower, .features-sec{
+      width:96%;
+  }
+}
+
+
+  @media only screen and (max-width: 570px){
+      .list-1{
+          display:none;
+      }
+      .my-nav , .an , .my-footer , #line , .footer-lower , .service-lower, .features-sec{
+          width:90% !important;
+      }
+      .left{
+          width:50%;
+      }
+      .list-2{
+          width:100%;
+      }
+  }
+
+  @media only screen and (max-width: 330px){
+      .list-2{
+          width:70%;
+      }
+      .left{
+          width:40%;
+      }
+      .right{
+          width:60%;
+      }
+
+      .login-section{
+          width:72% !important;
+      }
+
+      .login-form{
+          width:90%;
+      }
+  }
+
+  /*MAKING HEADER RESPONSIVE*/
+  @media only screen and (max-width: 1500px){
+      .para{
+          font-size:0.8rem;
+      }
+
+  }
+
+  @media only screen and (max-width: 1253.5px){
+      .h1{
+          font-size:4.6rem;
+      }
+      
+      .left-sec{
+          width:50%;
+      }
+
+      .login-section, .contact-section, .signup-section{
+        width:60%;
+    }
+
+}
+
+@media only screen and (max-width: 969px){
+    .left-sec{
+        width:70%;
+        margin-left:auto;
+        margin-right:auto;
+        background:none;
+    }
+
+    .right-sec{
+        display:none;
+    }
+    
+    .my-header{
+        margin-top:60px;
+        width:100%;
+        padding-top:40px;
+        padding-bottom:40px;
+        background-image: url("../img/bg.jpeg");
+        background-repeat:no-repeat;
+        background-position: center;
+        background-size:cover;
+    }
+
+    .h1{
+        font-size:4rem;
+        text-align:center;
+        background:none;
+    }
+
+    .para{
+        display:none;
+    }
+    .header-form{
+        display:none;
+    }
+   
+    .hid{
+        display:inline-block;
+        display:flex;
+        justify-content:center;
+    }
+    
+    .btn{
+        border:2px solid white;
+    }
+
+    .lower-sec{
+        width:100%;
+    }
+    
+    .lower-left , .lower-right{
+        width:40%;
+    }
+
+    .p , .p1{
+        display:block;
+    }
+
+    .service-sec{
+        width:45%;
+    }
+
+    .h-sec{
+        font-size:2rem;
+    }
+
+
+}
+
+@media only screen and (max-width: 654.5px){
+    .left-sec{
+        width:90%;
+    }
+
+    .h1{
+        font-size:4rem;
+    }
+
+    .service-sec{
+        width:70%;
+    }
+
+    .hh{
+        display:none;
+    }
+
+    .card-head{
+        font-size:0.9rem;
+    }
+
+    .card-img{
+        max-width:80%;
+    }
+
+    .features-sec{
+        width:100%;
+        justify-content:center;
+        background-image:url('../img/hack.jpg');
+        background-repeat:no-repeat;
+        background-position: center;
+        background-size:cover;
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+     
+    .lm{
+        margin-top:60px !important;
+        background-image:none !important;
+    }
+
+    .my-footer{
+        margin-top:40px;
+    }
+    
+    .feature-left{
+        display:none;
+    }
+
+    .feature-right{
+        width:60%;
+        background:none;
+    }
+    .lower-security , .h-sec, .lef, .h4{
+        background:none;
+    }
+
+    .h-sec{
+        display:inline-block;
+    }
+    .ss-h{
+        margin-left:3px;
+    }
+
+
+}
+@media only screen and (max-width: 460px){
+    .h1{
+        font-size:3rem;
+    }
+    .p{
+        font-size:0.6rem;
+    }
+    
+    .feature-right{
+        width:80%;
+    }
+}
+
+@media only screen and (max-width: 370px){
+    .header-form{
+        flex-direction:column;
+    }
+    .h1{
+        font-size:2rem;
+    }
+    .p{
+        margin-left:10px;
+        font-size:0.5rem;
+        margin-left:10px;
+    }
+    
+    .lower-left , .lower-right{
+        width:100% !important;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    .lower-sec{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .lower-left , .lower-right{
+        width:70% !important;
+    }
+    .list-2{
+        width:75%;
+    }
+    .left{
+        width:50%;
+    }
+    .right{
+        width:70%;
+    }
+    .feature-right{
+        width:95%;
+    }
+
+    .h-sec{
+        font-size:1.3rem !important;
+    }
+}
+
+/*MAKING LOWER SECTION RESPONSIVE*/
+@media only screen and (max-width: 1320.5px){
+
+    .lower-left , .lower-right{
+        width:50%;
+    }
+
+
+}
+
+@media only screen and (max-width: 763.5px){
+
+    .h2{
+        font-size:2rem;
+    }
+
+    .submit-btn{
+        width:fit-content !important;
+        padding:12px !important;
+    }
+
+    .login-section, .contact-section, .signup-section{
+        width:75%;
+    }
+
+}
+
+@media only screen and (max-width: 392.5px){
+
+    .h2{
+        font-size:1.8rem;
+    }
+
+}
+
+@media only screen and (max-width: 335px){
+
+    .service-sec{
+        width:80%;
+    }
+
+    .h2{
+        font-size:1.6rem;
+    }
+
+
+    .sec-1{
+        width:100%;
+    }
+
+    .h3{
+        font-size:1rem;
+    }
+
+    .card-head{
+        font-size:0.6rem;
+    }
+
+    .card-img{
+        height:80px;
+    }
+
+    .feature-right{
+        width:75%;
+    }
+
+    .signup-section, .login-section, .contact-section{
+        width:75%;
+    }
+
+    .inp, .select{
+        font-size:0.8rem;
+    }
+
+}
+
+@media only screen and (max-width: 750px){
+
+
+    .sec-1{
+        width:70% !important;
+    }
+
+    .my-footer{
+        flex-wrap:wrap;
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .foot-hid{
+        margin-top:20px;
+    }
+
+    .underline{
+        display:block !important;
+        width:80% !important;
+        height:2px !important;
+        background:grey;
+    }
+    .sec{
+        width:60%;
+        line-height:2;
+    }
+
+    .footer-lower , #line{
+        display:none;
+    }
+
+    .anchor{
+        padding:10px;
+    }
+
+    .h4{
+        font-size:0.9rem;
+    }
+
+    .h-sec{
+        font-size:1.6rem;
+    }
+
+
+}

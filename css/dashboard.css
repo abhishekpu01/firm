@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Lato', sans-serif;
+    background:rgb(239, 239, 239);
+}
+
+.dashboard{
+    display:flex;
+    width:95%;
+    justify-content:space-between;
+}
+
+.dash-left{
+    padding-top:16px;
+    width:25%;
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+    background:white;
+    height:100vh;
+    position:sticky;
+    top:0;
+}
+
+
+.list , .head{
+    display:flex;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    justify-content:space-between;
+    align-items:center;
+    background:none;
+    position:sticky;
+}
+
+.list{
+    background:none;
+    margin-top:20px;
+}
+
+.h3{
+    background:none;
+    width:75%;
+    font-size:3rem;
+}
+
+.logo{
+    background:none;
+    width:60px;
+    height:60px;
+}
+
+.img-logo{
+    background:none;
+    width:40px;
+    height:40px;
+}
+
+.h4{
+    background:none;
+    width:80%;
+    font-size:1.3rem;
+    color:grey;
+    font-weight:lighter;
+}
+
+.dash-right{
+    height:30%;
+    padding-top:16px;
+    width:72%;
+}
+
+.flex{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.das{
+    width:60%;
+
+}
+
+.dashboard-nav{
+    display:flex;
+    width:40% !important;
+    justify-content:space-between;
+}
+
+.logo-1{
+    width:40px;
+    height:40px;
+    padding:10px;
+    border:2px solid rgb(239, 239, 239);;
+    border-radius:50%;
+}
+
+.profile-logo{
+    width:40px;
+    height:40px;
+    border:2px solid white;
+    border-radius:50%;
+}
+
+.profile{
+    width:40%;
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    
+}
+
+.h5, .h5-x{
+    background:none;
+    font-size:1rem;
+    width:auto;
+    margin-left:8px;
+}
+
+.main{
+    margin-top:40px;
+    width:100%;
+}
+
+.card-section{
+    margin-top:40px;
+    margin-bottom:40px;
+    width:100%;
+    display:flex;
+    gap:16px;
+}
+
+.main-img , .tab-img{
+    width:100%;
+    height:auto;
+    border:1px solid white;
+    border-radius:10px;
+}
+
+.tab-img{
+    display:none;
+}
+
+.invest-card{
+    border:1px solid white;
+    border-radius:10px;
+    background:white;
+    padding:16px;
+    width:22%;
+}
+
+.my-card{
+    background:none;
+    width:100%;
+    justify-content:space-between;
+    display:flex;
+    align-items:center;
+}
+
+.card-title{
+    background:none;
+    line-height:1.5;
+}
+
+.card-lower{
+    background:none;
+    margin-top:16px;
+    display:flex;
+    width:100%;
+}
+
+.h6-x{
+    background:none;
+    font-size:0.9rem;
+    color:grey;
+}
+
+.card-img{
+    background:none;
+    width:40px;
+    height:40px;
+}
+
+.card-lower-img{
+    background:none;
+    width:20px;
+    height:20px;
+}
+
+.investor-sec{
+    margin-top:20px;
+    margin-bottom:40px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.gainers{
+    padding:16px;
+    width:40%;
+    border:2px solid white;
+    border-radius:10px;
+    background:white !important;
+}
+
+.gainer-card{
+    background:none;
+    width:100%;
+}
+
+.gainer-heading{
+    background:none;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.gainer-detail{
+    margin-top:20px;
+    background:none;
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+}
+
+.det-left{
+    background:none;
+    display:flex;
+    gap:10px;
+}
+
+h6, h5, .gainer-name{
+    background:none;
+}
+
+.det-right{
+    background:none;
+}
+
+.profit{
+    display:flex;
+    gap:4px;
+    background:none;
+}
+
+.gainer-name{
+    line-height:1.5;
+}
+
+.dividend-img{
+    width:100%;
+    margin-top:10px;
+    height:170px;
+}
+
+.year{
+    background:none;
+    display:flex;
+    width:100%;
+    gap:16px;
+    align-items:center;
+    justify-content:center;
+}
+
+.y-l{
+    background:none;
+    margin-top:4px;
+    display:flex;
+    gap:4px;
+    align-items:center;
+}
+
+.circle{
+    width:8px;
+    height:8px;
+}
+
+.c1{
+    background-color:rgb(19, 193, 19);
+    border:1px solid rgb(19, 193, 19);
+    border-radius:50%;
+}
+
+.c2{
+    background-color:rgb(183, 240, 183);
+    border:1px solid rgb(183, 240, 183);
+    border-radius:50%;
+}
+
+
+
+
+
+
+
